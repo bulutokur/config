@@ -1,0 +1,22 @@
+{
+  "theme": "Gruvbox Light Hard",
+  "ui_font_family": "Consolas NF",
+  "buffer_font_family": "Consolas NF",
+  "vim_mode": true,
+  "relative_line_numbers": true,
+  "cursor_shape": "block", // editor cursor when not in Vim (optional)
+  "vim": {
+    "default_mode": "normal",
+    "use_system_clipboard": "always",
+    "use_smartcase_find": true,
+    "toggle_relative_line_numbers": true,
+    "highlight_on_yank_duration": 150,
+    "cursor_shape": {
+      "normal": "block",
+      "insert": "block",
+      "visual": "hollow",
+      "replace": "underline"
+    }
+  },
+  "C++": { "format_on_save": "off", "use_on_type_format": false }
+}
