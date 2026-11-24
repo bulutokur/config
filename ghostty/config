@@ -1,0 +1,31 @@
+# ~/.config/ghostty/config
+
+# --- Window ---
+window-decoration = auto
+# Closest match to Alacritty's "Buttonless" (macOS only):
+# macos-titlebar-style = hidden
+# window-padding-x = 3
+# window-padding-y = 0
+# window-padding-balance = true   # roughly like dynamic_padding
+
+# --- Font ---
+# font-family = "FixedMedium 6x13"
+font-family = "Consolas NF"
+# font-family = "Windows Command Prompt"
+# font-family = "JetBrainsMono NF"
+font-size = 15
+
+# --- Keyboard ---
+keybind = shift+enter=text:\r
+# keybind = shift+enter=text:\x1b\r
+
+# --- Cursor ---
+cursor-style = block
+cursor-style-blink = true
+# Alacritty's thickness = 0.8 has no exact match. Ghostty's
+# adjust-cursor-thickness only affects bar and underline cursors.
+
+
+theme = Citrus Ink
+cursor-style = block
+shell-integration-features = no-cursor

@@ -3,10 +3,10 @@
 options=(
    active_color=0xFF00FF00
  style=round     # straight corners, no rounding
-  width=3.0             # i3-like thin border (increase if you want thicker)
+  width=5.0             # i3-like thin border (increase if you want thicker)
   hidpi=on
   active_color=0xFF2596BE   # i3 blue for focused window
- # active_color=0xFF00FF00
+# active_color=0xFF00FF00
  # active_color=0xFFFFFFFF
   inactive_color=0x00000000 # fully transparent for inactive borders
   only_active=true

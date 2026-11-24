@@ -2,6 +2,7 @@ return {
   "nvim-mini/mini.indentscope",
   version = false,
   config = function()
+    --[[
     require("mini.indentscope").setup({
       draw = {
         delay = 100,
@@ -23,5 +24,6 @@ return {
       },
       symbol = "╏",
     })
+    --]]
   end,
 }

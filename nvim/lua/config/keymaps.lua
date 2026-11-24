@@ -44,8 +44,8 @@ vim.api.nvim_set_keymap("n", "<leader>e", ":Ex<CR>", { noremap = true, silent = 
 -- Bind Shift + Enter to Enter to insure proper indentation
 vim.api.nvim_set_keymap("i", "<S-CR>", "<CR>", { noremap = true, silent = true })
 
---vim.o.guicursor = "n-v-c:block,i-ci-ve:hor25,r-cr:hor20,o:hor50"
---vim.o.guicursor = "n-v-c:block-Cursor"
+vim.o.guicursor = "n-v-c:block,i-ci-ve:hor25,r-cr:hor20,o:hor50"
+vim.o.guicursor = "n-v-c:block-Cursor"
 
 vim.keymap.set('n', '<leader>fw', function()
   require('telescope.builtin').current_buffer_fuzzy_find()
