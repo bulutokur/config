@@ -28,6 +28,9 @@ vim.pack.add({
   'https://github.com/chomosuke/typst-preview.nvim',
   'https://github.com/nvim-mini/mini.map',
   'https://github.com/folke/trouble.nvim',
+
+  'https://github.com/stevearc/oil.nvim',
+
 })
 
 -- =====================================================================
@@ -50,23 +53,30 @@ require("csvview").setup({
   },
 })
 
--- Telescope
-require("telescope").setup({})
 
 -- Statusline (lualine)
 require("lualine").setup({
   options = {
-    theme = "gruvbox-material",
+    theme = "wombat",
     icons_enabled = true,
-    component_separators = { left = "", right = "" },
-    section_separators = { left = "", right = "" },
+    -- component_separators = { left = "", right = "" },
+    component_separators = { left = "", right = "" },
+   -- section_separators = { left = "", right = "" },
+    section_separators = { left = "", right = "" },
     globalstatus = true,
+    padding = 1,
   },
   sections = {
     lualine_a = { "mode" },
     lualine_b = { "branch", "diff", "diagnostics" },
     lualine_c = { "filename" },
-    lualine_x = { "encoding", "fileformat", "filetype" },
+    lualine_x = {
+      function()
+        return os.date("!%d%H%MC%b%y", os.time() + 10800):upper()
+      end,
+
+      "encoding", "fileformat", "filetype"
+    },
     lualine_y = { "progress" },
     lualine_z = { "location" },
   },

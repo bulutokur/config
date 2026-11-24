@@ -14,7 +14,8 @@ vim.pack.add({
   'https://github.com/neanias/everforest-nvim',
   'https://github.com/thallada/farout.nvim',
   'https://github.com/savq/melange-nvim',
-  'https://github.com/vimcolorschemes/olive-crt.nvim'
+  'https://github.com/vimcolorschemes/olive-crt.nvim',
+  'https://github.com/vague-theme/vague.nvim',
 })
 
 vim.o.background = "dark"
@@ -68,3 +69,4 @@ vim.cmd("colorscheme solarized8")
 vim.cmd.colorscheme("melange")
 vim.cmd("set background=dark")
 vim.cmd("colorscheme olive-crt")
+vim.cmd("colorscheme vague")

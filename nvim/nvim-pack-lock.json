@@ -88,6 +88,10 @@
       "rev": "2ae6958df7ced50baac5035cec0c15799eedfbf7",
       "src": "https://github.com/nvim-tree/nvim-web-devicons"
     },
+    "oil.nvim": {
+      "rev": "d3733d933833a0e59b813ecec99341527adf0c28",
+      "src": "https://github.com/stevearc/oil.nvim"
+    },
     "olive-crt.nvim": {
       "rev": "eaf42899fb2970bb5857bb7fa617fcaa96365e20",
       "src": "https://github.com/vimcolorschemes/olive-crt.nvim"
@@ -120,6 +124,10 @@
       "rev": "1c2e19486397be1c580b560fc50ee36abe329c46",
       "src": "https://github.com/chomosuke/typst-preview.nvim"
     },
+    "vague.nvim": {
+      "rev": "73f8aaa866bf3d14dd0b0ab9e48c11794c1cb7ab",
+      "src": "https://github.com/vague-theme/vague.nvim"
+    },
     "vim-256noir": {
       "rev": "e8668a18a4a90272c1cae87e655f8bddc5ac3665",
       "src": "https://github.com/andreasvc/vim-256noir"
@@ -127,6 +135,10 @@
     "vim-be-good": {
       "rev": "0ae3de14eb8efc6effe7704b5e46495e91931cc5",
       "src": "https://github.com/ThePrimeagen/vim-be-good"
+    },
+    "vim-moonfly-colors": {
+      "rev": "2c883835f5b7b380a0a9e80695c420f7efebdfe4",
+      "src": "https://github.com/bluz71/vim-moonfly-colors"
     },
     "vim-solarized8": {
       "rev": "4433b4411de92b2446a4d32f0d8bf1b25c476bf9",

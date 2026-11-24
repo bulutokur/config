@@ -126,3 +126,7 @@ vim.api.nvim_create_autocmd("FileType", {
 
 vim.cmd("colorscheme solarized8")
 vim.cmd("set background=dark")
+require("oil").setup()
+vim.api.nvim_create_user_command("Ex", function()
+  require("oil").open()
+end, { force = true })
