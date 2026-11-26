@@ -16,6 +16,7 @@ vim.pack.add({
   'https://github.com/savq/melange-nvim',
   'https://github.com/vimcolorschemes/olive-crt.nvim',
   'https://github.com/vague-theme/vague.nvim',
+  'https://github.com/sainnhe/sonokai',
 })
 
 vim.o.background = "dark"

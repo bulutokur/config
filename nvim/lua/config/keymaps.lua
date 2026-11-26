@@ -15,7 +15,7 @@ map("n", "<leader>t", ":w | cd %:p:h | !g++ -std=c++17 %:t -o %:t:r && python3 ~
 -- General settings
 vim.o.number = true         -- Show line numbers
 vim.o.relativenumber = true -- Relative line numbers
-vim.o.wrap = false          -- Disable line wrap
+vim.o.wrap = true           -- Disable line wrap
 vim.o.cursorline = true     -- Highlight the current line
 vim.o.hlsearch = false      -- Disable highlight search
 vim.o.ignorecase = true     -- Case insensitive search

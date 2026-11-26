@@ -29,7 +29,7 @@ vim.pack.add({
   'https://github.com/nvim-mini/mini.map',
   'https://github.com/folke/trouble.nvim',
 
-  'https://github.com/stevearc/oil.nvim',
+ -- 'https://github.com/stevearc/oil.nvim',
 
 })
 
@@ -57,12 +57,12 @@ require("csvview").setup({
 -- Statusline (lualine)
 require("lualine").setup({
   options = {
-    theme = "wombat",
+    theme = "gruvbox-material",
     icons_enabled = true,
-    -- component_separators = { left = "", right = "" },
-    component_separators = { left = "", right = "" },
-   -- section_separators = { left = "", right = "" },
-    section_separators = { left = "", right = "" },
+    component_separators = { left = "", right = "" },
+ --   component_separators = { left = "", right = "" },
+    section_separators = { left = "", right = "" },
+    --section_separators = { left = "", right = "" },
     globalstatus = true,
     padding = 1,
   },

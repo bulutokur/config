@@ -105,7 +105,7 @@ vim.api.nvim_create_autocmd("FileType", {
 
 -- Set 8 spaces exclusively for Assembly (.asm) files
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = { "asm", "nasm" },
+  pattern = { "asm", "nasm", "y", "l", "flx" },
   callback = function()
     vim.opt_local.tabstop = 8
     vim.opt_local.shiftwidth = 8
@@ -124,9 +124,11 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
-vim.cmd("colorscheme solarized8")
+vim.cmd("colorscheme monokai-pro-classic")
 vim.cmd("set background=dark")
+--[[
 require("oil").setup()
 vim.api.nvim_create_user_command("Ex", function()
   require("oil").open()
 end, { force = true })
+--]]
